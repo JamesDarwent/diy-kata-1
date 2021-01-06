@@ -2,7 +2,7 @@ const { TestScheduler } = require("jest");
 const { humanCatDogYears } = require("../src");
 
 describe("humanCatDogYears", () => {
-    test("returns a revised array of containing human, cat and dog years", () => {
+    test("returns array of human, cat and dog years when passed human years", () => {
         expect(humanCatDogYears(10)).toEqual([10, 56, 64]);
         expect(humanCatDogYears(20)).toEqual([20, 96, 114]);
         expect(humanCatDogYears(46)).toEqual([46, 200, 244]);
