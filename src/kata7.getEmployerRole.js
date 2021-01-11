@@ -7,7 +7,7 @@ const getEmployerRole = (employeeName, employees) => {
         roles = element.role 
     }});
         
-    return roles;
+    return roles !== undefined? roles : "No longer works here";
 };
 
 module.exports = getEmployerRole;

@@ -16,5 +16,6 @@ describe("getEmployerRole", () => {
     expect(getEmployerRole('Satti', employees)).toEqual('Developer')
     expect(getEmployerRole('Jenny', employees)).toEqual('Sales Associate')
     expect(getEmployerRole('Javid', employees)).toEqual('Human Recommended Reading Assistant')
+    expect(getEmployerRole('Randy', employees)).toEqual('No longer works here')
   });
 });

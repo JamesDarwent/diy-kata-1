@@ -6,6 +6,8 @@ describe("humanCatDogYears", () => {
         expect(humanCatDogYears(10)).toEqual([10, 56, 64]);
         expect(humanCatDogYears(20)).toEqual([20, 96, 114]);
         expect(humanCatDogYears(46)).toEqual([46, 200, 244]);
+        expect(humanCatDogYears(1)).toEqual([1, 15, 15]);
+        expect(humanCatDogYears(2)).toEqual([2, 24, 24]);
     });
 });
 
